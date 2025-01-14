@@ -1,0 +1,4 @@
+framework module FlyreelPanorama {
+  header "FlyreelPanorama-Swift.h"
+  requires objc
+}

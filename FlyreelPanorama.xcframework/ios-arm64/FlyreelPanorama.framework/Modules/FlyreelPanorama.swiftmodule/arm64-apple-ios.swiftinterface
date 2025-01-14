@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FlyreelPanorama
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AVKit
+import Combine
+import CoreMedia
+import CoreMotion
+import DeveloperToolsSupport
+import Foundation
+import GLKit
+import MetalKit
+import QuartzCore
+import SceneKit
+import Swift
+import SwiftUI
+import UIKit
+import _AVKit_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+
+
+
+
+
+
+
+
+
+
+
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public func presentPanoramaCaptureView(clientID: Swift.String, onCaptureCompletion: @escaping ([Foundation.URL]) -> Swift.Void)
+}
+
+
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func panoramaCaptureView(isPresented: SwiftUICore.Binding<Swift.Bool>, clientID: Swift.String, onCaptureCompletion: @escaping ([Foundation.URL]) -> Swift.Void) -> some SwiftUICore.View
+  
+}
+
+
