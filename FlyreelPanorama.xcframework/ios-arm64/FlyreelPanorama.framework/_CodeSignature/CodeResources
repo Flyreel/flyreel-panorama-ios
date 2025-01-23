@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		MzI/FjzjlphuTmunaHtas14jZ2M=
+		6WkvOSv3O2W5v9nGf48Umzj6rdE=
 		</data>
 		<key>CMakeLists.txt</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5Cpb7/isj3DiOPK/6Gqz1Xenyu4=
+		6j4Ra9aMixUy2pli9patYGSDfLI=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		GpbBgJDGgcwhbahKYV9ytI09Jp0=
+		aYWVWBjIyosHhIXEF608XnCtlZ8=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BakWl6VZ/z5OuWJC14fWw74fFbc=
+		4SJye6fXKSEmZdxxpcDRZxAaciM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s9UILYUiB7qciK/x8prrNxN0AWc+nxoPFFe2Qw8zdOc=
+			ckO54lurnpyVrYZZz8WrhLqbooEIHdKTERnLIWUxsxU=
 			</data>
 		</dict>
 		<key>CMakeLists.txt</key>
@@ -168,7 +168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rYkNDKumdbvWBwuxE+Jb6CPfnfJOGy+q+48WC4lJn/4=
+			MDoJeav/Q1zmXtscSazYiR2i0b/cYWettW/ZDNF6a9M=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UvRfxwtdKIbbE6YCPRBeINAxtgYOWuWBgBHByp4Rr/k=
+			C2GPpAIm0yCV5FBkL6ErW/oEz1n5GwXQziFH/Ruun9A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

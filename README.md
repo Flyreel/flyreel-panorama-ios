@@ -51,9 +51,8 @@ struct ContentView: View {
             isPresented: $isCaptureViewPresented,
             clientID: "your-client-id",
             onCaptureCompletion: { localScanBundleURLs in
-                if let urls = localScanBundleURLs {
-                    // Handle the scan URLs
-                    print("Scan URLs: \(urls)")
+                if !localScanBundleURLs.isEmpty {
+                    print("Scan URLs: \(localScanBundleURLs)")
                 } else {
                     print("Scan was not completed")
                 }
@@ -74,9 +73,8 @@ import FlyreelPanorama
 class ViewController: UIViewController {
     @IBAction func showPanoramaCaptureFlow(_ sender: UIButton) {
         self.presentPanoramaCaptureView(clientID: "your-client-id") { localScanBundleURLs in
-            if let urls = localScanBundleURLs {
-                // Handle the scan URLs
-                print("Scan URLs: \(urls)")
+            if !localScanBundleURLs.isEmpty {
+                print("Scan URLs: \(localScanBundleURLs)")
             } else {
                 print("Scan was not completed")
             }

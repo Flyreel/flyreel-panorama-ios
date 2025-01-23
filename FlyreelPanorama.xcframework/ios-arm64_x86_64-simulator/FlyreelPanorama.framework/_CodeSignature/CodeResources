@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MQibShkkv4tCbvvfvPX0sQCTPtU=
+		FQdBJLtGPybKNVXUbvztiF6hEHQ=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		90hIL9LUHQjv9rKnln39NmNMahM=
+		ZvKeVIjmlRDYR9L3hqDX5BgA9OI=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zPWEXCNCVFztTcdeDED0oKkger4=
+		L1oq7bdClQG2ABDLSuf/nTznKl0=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aYQO454DM23oHijan4O2wrY95G0=
+		sQPuoy8VX823Lc/q1JhFGU+rKyU=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pDFvmfF01HaxcMc0lZGrea1qeio=
+		A4z7R8qQVPoN3UE94NucsfE+KC0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j/UGX5sSxnmhkAYejYZQiv00PxleQLAvszgJ+OR1Qc4=
+			7nPGjVVMGvxPbSZ50wL53Z+alIor3w1ns4mLTWLEnd0=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -202,7 +202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m4TFpT3r7NGO2HGS+8HPeQZL49s7VMWZNHdlD6s/6YY=
+			FQ1FTCNrvydnTgvtn6ymMya4ByRaQx/ycyldP77J7MQ=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -223,7 +223,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSQ54BZbVNC5FXFcU9v5g5YO55lHH1Wjh184+sUWpTo=
+			sb9ovUVgiLEisx0m3W7X0AdspkvwhKVIAil/R3m65LQ=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -237,7 +237,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V455npnQblutsowC0avcfobmUW5n93BkWQQSR6KaMYY=
+			3ggxAzTW+exNiTJ+u/yHb/imPtq+V3ulZQbpI+t0b4M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
