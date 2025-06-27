@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		6WkvOSv3O2W5v9nGf48Umzj6rdE=
+		y2CrDV2R084JTRqO6o+4myEdeWM=
 		</data>
 		<key>CMakeLists.txt</key>
 		<data>
-		C6y0jJ0SvPV6RYl4SSd33NJVABo=
+		yijYhDKlMnh5tYEt5MkrLVSRvCE=
 		</data>
 		<key>Gilroy-Medium.otf</key>
 		<data>
@@ -26,51 +26,51 @@
 		</data>
 		<key>Headers/FlyreelPanorama-Swift.h</key>
 		<data>
-		J1v8cPelVu85rUgMK9jxR/rwDmE=
+		A4urd0YMhdKygKrDnweyNb5Gmn8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FQdBJLtGPybKNVXUbvztiF6hEHQ=
+		3x7q13h772aH9vyk+hM6as1OQYI=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JpqGwaK9fPTemcaEbyTvR/HnCkI=
+		Uiw2ju6rEi0bWO/fyJqBvi8ZkyU=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8n2FOii5Hf/pOH0x0Czj0o+dD6Q=
+		xW8j+SoQMG5/BuBvxBSWk08Ck7k=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZvKeVIjmlRDYR9L3hqDX5BgA9OI=
+		e2KEbqUnltUXMFVVPftNNPOjjuA=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8n2FOii5Hf/pOH0x0Czj0o+dD6Q=
+		xW8j+SoQMG5/BuBvxBSWk08Ck7k=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L1oq7bdClQG2ABDLSuf/nTznKl0=
+		vJTxlEY0AGI+7U4Jhnf0GgBoTW8=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JpqGwaK9fPTemcaEbyTvR/HnCkI=
+		Uiw2ju6rEi0bWO/fyJqBvi8ZkyU=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5zi9gB3Sjic1H2w+BNF+eYSd2Ok=
+		nS4986LrMdkRmNOUDSqip4OYK+Q=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sQPuoy8VX823Lc/q1JhFGU+rKyU=
+		ty2IwaQONXqzjwtL3kjBPQ0ii0Y=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5zi9gB3Sjic1H2w+BNF+eYSd2Ok=
+		nS4986LrMdkRmNOUDSqip4OYK+Q=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A4z7R8qQVPoN3UE94NucsfE+KC0=
+		Snc68GXhtGsDS/2CgJIx/MvwmuM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		uU4tt5Tb4QLjM6gVoVw7QaGUtw8=
+		1LTap4ubc06mtb66y4CuvcRToxM=
 		</data>
 		<key>dot-progress-med-fade-thin.json</key>
 		<data>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9c8WA+xBv5zj1WF+3bXqHipIl0g=
+			Bni3l+GshV1HQUUUVgX76BhbilQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -132,14 +132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ckO54lurnpyVrYZZz8WrhLqbooEIHdKTERnLIWUxsxU=
+			O/yc6IlTE/QBpU4zL5jtrVOINvGC7iv0tDsvP/99UII=
 			</data>
 		</dict>
 		<key>CMakeLists.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gs2jjnYpBLzWRzezCa7xZfrsc/q1KkxI2O7RNntfeBw=
+			N68HfIUx9gf/dhsy39BKF+s/brviCnR0xZ9/R1Ij/ks=
 			</data>
 		</dict>
 		<key>Gilroy-Medium.otf</key>
@@ -167,77 +167,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pa0Iwn5yZYphfV+m5JKc+NyAgiQ49oOEqu0eZ24BPi0=
+			wf9aN0YE92CGuHRCbbrB9plxfdGaPeqgcH4i9qtwZ5M=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZxoBd4TwvRh7wk7WERo+J2YwkkAjlwM7dLkLL2MK4E=
+			/062cs7IdqWeyMOPQ4KMNUWa+Mu+mZj47ovE2IWe/BM=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xlqfbIFmDrLSGS5TlHV0EY4a0LhFMDNxgSUve34sLw=
+			3FFKdYW72oEYEbM/Us87tvN0R3TA3QydrPsrIyMcx5g=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7nPGjVVMGvxPbSZ50wL53Z+alIor3w1ns4mLTWLEnd0=
+			DmQX93jNBzwa4U3km55F6qiP5Wbq35VXkxUNkZM87C4=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xlqfbIFmDrLSGS5TlHV0EY4a0LhFMDNxgSUve34sLw=
+			3FFKdYW72oEYEbM/Us87tvN0R3TA3QydrPsrIyMcx5g=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FQ1FTCNrvydnTgvtn6ymMya4ByRaQx/ycyldP77J7MQ=
+			2UESNAQSGSPfnI8harSzovNqV4oUcSlTTjJnRR3gaQ8=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZxoBd4TwvRh7wk7WERo+J2YwkkAjlwM7dLkLL2MK4E=
+			/062cs7IdqWeyMOPQ4KMNUWa+Mu+mZj47ovE2IWe/BM=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CSg0QPOhnyZWo8bttaPDCgFNqQwopKjHgwl8rWWkw/I=
+			0dNHQ4GAXE78nPC6b2v2hfXShrx+Q1Ld6dshqAm6gu0=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sb9ovUVgiLEisx0m3W7X0AdspkvwhKVIAil/R3m65LQ=
+			PaU+nKKCSgc+bn9Ec8EMm6sozfvPzncF5N9DC48n27g=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CSg0QPOhnyZWo8bttaPDCgFNqQwopKjHgwl8rWWkw/I=
+			0dNHQ4GAXE78nPC6b2v2hfXShrx+Q1Ld6dshqAm6gu0=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ggxAzTW+exNiTJ+u/yHb/imPtq+V3ulZQbpI+t0b4M=
+			Gkw47u3cmQdRnzbjIu+zkz0j8RSYqdy5x6EmPj6Oj0I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -272,7 +272,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QPnd/OA9qhtRtGGrDwYqI2JpaPMHaqLVyclZzw7hkv4=
+			Ul0SV3E0MpQRqV+CbSQnTcIbt+fiiwhAPkiTOzCPwSY=
 			</data>
 		</dict>
 		<key>dot-progress-med-fade-thin.json</key>
@@ -286,7 +286,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yUVuL/AMQg6fzWlj11mR16uT8YlA0NWzlMHAbKK7XPc=
+			F9snlHBWtlI2dYn3EeH8/wls0NvG0WotQ56+jguqUJU=
 			</data>
 			<key>optional</key>
 			<true/>
