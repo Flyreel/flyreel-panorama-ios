@@ -32,53 +32,60 @@ For more information, refer to [Apple’s official guide](https://developer.appl
 
 ### SwiftUI Example
 
-The following example demonstrates how to present the panorama capture view using the `panoramaCaptureView` modifier:
+To use the Panorama capture flow in SwiftUI, call `Panorama.push(navigation:clientID:onCompletion:)`
+to return a view that can be pushed into a navigation context. When the flow completes, the `onCompletion`
+handler is called with the final scan file URLs.
 
 ```swift
 import SwiftUI
 import FlyreelPanorama
 
 struct ContentView: View {
-    @State private var isCaptureViewPresented = false
+    @State private var navigateToCapture = false
 
     var body: some View {
-        VStack {
-            Button("Capture Panorama") {
-                isCaptureViewPresented = true
-            }
-        }
-        .panoramaCaptureView(
-            isPresented: $isCaptureViewPresented,
-            clientID: "your-client-id",
-            onCaptureCompletion: { localScanBundleURLs in
-                if !localScanBundleURLs.isEmpty {
-                    print("Scan URLs: \(localScanBundleURLs)")
-                } else {
-                    print("Scan was not completed")
+        NavigationView {
+            VStack {
+                NavigationLink(
+                    destination: Panorama.push(
+                        navigation: $navigateToCapture,
+                        clientID: "your-client-id",
+                        onCompletion: { urls in
+                            // Handle the scan URLs
+                            print("Scan URLs: \(urls)")}
+                    ),
+                    isActive: $navigateToCapture,
+                ) {
+                    Text("Start Panorama Capture")
                 }
             }
-        )
+        }
     }
 }
 ```
 
 ### UIKit Example
 
-The following example demonstrates how to present the panorama capture view using the `presentFNOLCaptureView` extension:
+To use the Panorama capture flow in UIKit, call `Panorama.push(from:clientID:onCompletion:)`
+to push the view controller onto a `UINavigationController`. When the flow completes,
+the `onCompletion` handler is called with the final [URL].
 
 ```swift
 import UIKit
 import FlyreelPanorama
 
 class ViewController: UIViewController {
-    @IBAction func showPanoramaCaptureFlow(_ sender: UIButton) {
-        self.presentPanoramaCaptureView(clientID: "your-client-id") { localScanBundleURLs in
-            if !localScanBundleURLs.isEmpty {
-                print("Scan URLs: \(localScanBundleURLs)")
-            } else {
-                print("Scan was not completed")
+    @IBAction func startPanoramaFlow(_ sender: Any) {
+        guard let navController = self.navigationController else { return }
+
+        Panorama.push(
+            from: navController,
+            clientID: "your-client-id",
+            onCompletion: { urls in
+                // Handle the scan URLs
+                print("Scan URLs: \(urls)")
             }
-        }
+        )
     }
 }
 ```

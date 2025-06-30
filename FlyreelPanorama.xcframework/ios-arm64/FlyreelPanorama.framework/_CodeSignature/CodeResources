@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		6WkvOSv3O2W5v9nGf48Umzj6rdE=
+		y2CrDV2R084JTRqO6o+4myEdeWM=
 		</data>
 		<key>CMakeLists.txt</key>
 		<data>
-		C6y0jJ0SvPV6RYl4SSd33NJVABo=
+		yijYhDKlMnh5tYEt5MkrLVSRvCE=
 		</data>
 		<key>Gilroy-Medium.otf</key>
 		<data>
@@ -26,31 +26,31 @@
 		</data>
 		<key>Headers/FlyreelPanorama-Swift.h</key>
 		<data>
-		vmu2vekAP/yPaxxImxtFylCQIkY=
+		VZiPjJTtYiqJmH0TpzdEg/C+Ocw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6j4Ra9aMixUy2pli9patYGSDfLI=
+		fnnfk1B8TbImR/dkVAudpXw6KbU=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		L60T2nshe2qhj2AhV5Jg/fr7FGs=
+		wM46LlQwoqxtCctRmg+JpQOOBjo=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		PCWMvlkXdbReDIc248Sf9g+YjzM=
+		t7gRDO2osu4x7dkY0OVLBF9bf8I=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		aYWVWBjIyosHhIXEF608XnCtlZ8=
+		+y/XtpgKqepwcXw8/Lu5HeuzaP0=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PCWMvlkXdbReDIc248Sf9g+YjzM=
+		t7gRDO2osu4x7dkY0OVLBF9bf8I=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4SJye6fXKSEmZdxxpcDRZxAaciM=
+		O6hUTjJYPa4kywuCDorHg+sAaKQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		ABxDi8zQapUQ5FBYoQN0WtDW4f8=
+		49Pyx6bANHwdd3e1NrfS1ZLeZ7w=
 		</data>
 		<key>dot-progress-med-fade-thin.json</key>
 		<data>
@@ -80,7 +80,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9c8WA+xBv5zj1WF+3bXqHipIl0g=
+			Bni3l+GshV1HQUUUVgX76BhbilQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,14 +112,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ckO54lurnpyVrYZZz8WrhLqbooEIHdKTERnLIWUxsxU=
+			O/yc6IlTE/QBpU4zL5jtrVOINvGC7iv0tDsvP/99UII=
 			</data>
 		</dict>
 		<key>CMakeLists.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gs2jjnYpBLzWRzezCa7xZfrsc/q1KkxI2O7RNntfeBw=
+			N68HfIUx9gf/dhsy39BKF+s/brviCnR0xZ9/R1Ij/ks=
 			</data>
 		</dict>
 		<key>Gilroy-Medium.otf</key>
@@ -147,42 +147,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BQlMlYT/w/GL3OA0sVJ+w7jgP7AUj+3QGjfynQpIcv0=
+			Ke5O+OB1efxswXvVURT8brG5/VnRGxMZCkHp9JzS16c=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdsfxVPZpNWyL8Px0qMwl7yzJmyKyS9iQAcdt5O5JkE=
+			TtBtOSLLRYo+BizUr0udvtNg1RvKNWIOGv/T6a+R0g4=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHGwKbs4XrhE5YOIuFuNq4XXSjNUn8QMrGrvGDYSNcE=
+			13mF8lo4SZCkvwGBvte1UXdbqRo+VCiRnUWW3vXX+Rg=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MDoJeav/Q1zmXtscSazYiR2i0b/cYWettW/ZDNF6a9M=
+			2Op8/DhrgO7rVbqfYqfpYdhb9C1hSC/IPO3cw46fVQ4=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHGwKbs4XrhE5YOIuFuNq4XXSjNUn8QMrGrvGDYSNcE=
+			13mF8lo4SZCkvwGBvte1UXdbqRo+VCiRnUWW3vXX+Rg=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C2GPpAIm0yCV5FBkL6ErW/oEz1n5GwXQziFH/Ruun9A=
+			BkxD4Fbhf2//TEifdLQvUk4PXjyoGsbMU7W/iClwovk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -217,7 +217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4y9lU+Nk7nSmwqjKvjrCed3DEW3emISUt6XcqRf1iOc=
+			bbmajlfZWR4t3yd2YdS+IqaCTvD5AFVS0oeZry2Jfo0=
 			</data>
 		</dict>
 		<key>dot-progress-med-fade-thin.json</key>
@@ -231,7 +231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yUVuL/AMQg6fzWlj11mR16uT8YlA0NWzlMHAbKK7XPc=
+			F9snlHBWtlI2dYn3EeH8/wls0NvG0WotQ56+jguqUJU=
 			</data>
 			<key>optional</key>
 			<true/>

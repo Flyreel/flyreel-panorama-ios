@@ -46,6 +46,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
         "declKind": "Import",
@@ -188,23 +198,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FlyreelPanorama",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "FlyreelPanorama"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -222,6 +215,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama"
       },
       {
         "kind": "Import",
@@ -396,6 +406,20 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama"
       },
       {
         "kind": "Import",
@@ -498,15 +522,8 @@
       },
       {
         "kind": "Import",
-        "name": "simd",
-        "printedName": "simd",
-        "declKind": "Import",
-        "moduleName": "FlyreelPanorama"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FlyreelPanorama",
         "declAttributes": [
@@ -515,8 +532,18 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
         "declKind": "Import",
         "moduleName": "FlyreelPanorama"
       },
@@ -596,6 +623,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FlyreelPanorama",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -612,6 +649,189 @@
         "moduleName": "FlyreelPanorama",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Panorama",
+        "printedName": "Panorama",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(navigation:clientID:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Foundation.URL]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URL]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URL]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FlyreelPanorama0B0O4push10navigation8clientID12onCompletionQr7SwiftUI7BindingVySbG_SSySay10Foundation3URLVGSgctFZ",
+            "mangledName": "$s15FlyreelPanorama0B0O4push10navigation8clientID12onCompletionQr7SwiftUI7BindingVySbG_SSySay10Foundation3URLVGSgctFZ",
+            "moduleName": "FlyreelPanorama",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(from:clientID:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Foundation.URL]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URL]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URL]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FlyreelPanorama0B0O4push4from8clientID12onCompletionySo22UINavigationControllerC_SSySay10Foundation3URLVGSgctFZ",
+            "mangledName": "$s15FlyreelPanorama0B0O4push4from8clientID12onCompletionySo22UINavigationControllerC_SSySay10Foundation3URLVGSgctFZ",
+            "moduleName": "FlyreelPanorama",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15FlyreelPanorama0B0O",
+        "mangledName": "$s15FlyreelPanorama0B0O",
+        "moduleName": "FlyreelPanorama",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -699,1731 +919,1779 @@
         "printedName": "DeveloperToolsSupport",
         "declKind": "Import",
         "moduleName": "FlyreelPanorama"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "View",
-        "printedName": "View",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "panoramaCaptureView",
-            "printedName": "panoramaCaptureView(isPresented:clientID:onCaptureCompletion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<Swift.Bool>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([Foundation.URL]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Foundation.URL]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP15FlyreelPanoramaE015panoramaCaptureC011isPresented8clientID02onG10CompletionQrAA7BindingVySbG_SSySay10Foundation3URLVGctF",
-            "mangledName": "$s7SwiftUI4ViewP15FlyreelPanoramaE015panoramaCaptureC011isPresented8clientID02onG10CompletionQrAA7BindingVySbG_SSySay10Foundation3URLVGctF",
-            "moduleName": "FlyreelPanorama",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:7SwiftUI4ViewP",
-        "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUICore",
-        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
-        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Preconcurrency",
-          "TypeEraser",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Custom"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIViewController",
-        "printedName": "UIViewController",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "presentPanoramaCaptureView",
-            "printedName": "presentPanoramaCaptureView(clientID:onCaptureCompletion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([Foundation.URL]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Foundation.URL]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So16UIViewControllerC15FlyreelPanoramaE07presentD11CaptureView8clientID02onF10CompletionySS_ySay10Foundation3URLVGctF",
-            "mangledName": "$sSo16UIViewControllerC15FlyreelPanoramaE07presentD11CaptureView8clientID02onF10CompletionySS_ySay10Foundation3URLVGctF",
-            "moduleName": "FlyreelPanorama",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIViewController",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIViewController",
-        "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/TutorialOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 1802,
+      "length": 7,
+      "value": "\"Start\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/TutorialOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2011,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/TutorialOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2057,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/TutorialOverlayView.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 10,
+      "value": "\"Continue\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/TutorialOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/TutorialOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2415,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 205,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageOverlayView.swift",
+      "kind": "StringLiteral",
+      "offset": 1545,
       "length": 15,
       "value": "\"Hello, World!\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 1602,
       "length": 66,
       "value": "\"Long longgggg longgggggggg message to test wrapping in the view.\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 1710,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/MessageOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
+      "offset": 1754,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/PreviewData.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 3708,
+      "length": 6,
+      "value": "\"Exit\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3904,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 3934,
+      "length": 21,
+      "value": "\"Exit 360° Capture?\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 3982,
+      "length": 91,
+      "value": "\"If you exit, you’ll be taken back to the chat where you can restart your 360° capture.\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4105,
+      "length": 6,
+      "value": "\"Exit\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4152,
+      "length": 13,
+      "value": "\"Exit tapped\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4202,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4253,
+      "length": 15,
+      "value": "\"Cancel tapped\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4334,
+      "length": 10,
+      "value": "\"Complete\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4534,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4581,
+      "length": 23,
+      "value": "\"checkmark.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4667,
+      "length": 38,
+      "value": "\"Capture complete! Let’s upload it.\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4737,
+      "length": 8,
+      "value": "\"Upload\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4786,
+      "length": 15,
+      "value": "\"Upload tapped\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 4868,
+      "length": 7,
+      "value": "\"Alert\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5075,
+      "length": 29,
+      "value": "\"exclamationmark.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5155,
+      "length": 8,
+      "value": "\"Alert!\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5186,
+      "length": 74,
+      "value": "\"This FRAlert has all the things! It's also presented as a view modifier.\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5288,
+      "length": 6,
+      "value": "\"True\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5331,
+      "length": 15,
+      "value": "\"Upload tapped\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5379,
+      "length": 5,
+      "value": "\"Yep\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRAlert.swift",
+      "kind": "StringLiteral",
+      "offset": 5423,
+      "length": 15,
+      "value": "\"Cancel tapped\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/PreviewData.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 2866,
       "value": "\"{\"v\":\"4.8.0\",\"meta\":{\"g\":\"LottieFiles AE 3.4.5\",\"a\":\"\",\"k\":\"\",\"d\":\"\",\"tc\":\"\"},\"fr\":29.9700012207031,\"ip\":0,\"op\":60.0000024438501,\"w\":100,\"h\":100,\"nm\":\"Directional Arrow\",\"ddd\":0,\"assets\":[],\"layers\":[{\"ddd\":0,\"ind\":1,\"ty\":4,\"nm\":\"Arrow\/Directional Arrow Outlines\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":1,\"k\":[{\"i\":{\"x\":0.667,\"y\":1},\"o\":{\"x\":0.333,\"y\":0},\"t\":0,\"s\":[50.283,21.008,0],\"to\":[0,0,0],\"ti\":[0,0,0]},{\"i\":{\"x\":0.667,\"y\":1},\"o\":{\"x\":0.333,\"y\":0},\"t\":10,\"s\":[50.283,11.008,0],\"to\":[0,0,0],\"ti\":[0,0,0]},{\"i\":{\"x\":0.667,\"y\":1},\"o\":{\"x\":0.333,\"y\":0},\"t\":20,\"s\":[50.283,21,0],\"to\":[0,0,0],\"ti\":[0,0,0]},{\"i\":{\"x\":0.667,\"y\":1},\"o\":{\"x\":0.333,\"y\":0},\"t\":30,\"s\":[50.283,11.008,0],\"to\":[0,0,0],\"ti\":[0,0,0]},{\"t\":40.0000016292334,\"s\":[50.283,21,0]}],\"ix\":2},\"a\":{\"a\":0,\"k\":[15.5,10.5,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100,100],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"ind\":0,\"ty\":\"sh\",\"ix\":1,\"ks\":{\"a\":0,\"k\":{\"i\":[[0,0],[-0.8,-0.968],[0,0],[2.021,0.603],[3.53,0],[3.464,-1.032],[-1.343,1.625]],\"o\":[[0.8,-0.968],[0,0],[1.343,1.625],[-3.464,-1.032],[-3.53,0],[-2.021,0.603],[0,0]],\"v\":[[-1.542,-8.954],[1.542,-8.954],[13.624,5.672],[11.063,9.319],[0,7.37],[-11.063,9.319],[-13.624,5.672]],\"c\":true},\"ix\":2},\"nm\":\"Path 1\",\"mn\":\"ADBE Vector Shape - Group\",\"hd\":false},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":4},\"o\":{\"a\":0,\"k\":100,\"ix\":5},\"r\":1,\"bm\":0,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[15.217,10.172],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Group 1\",\"np\":2,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":60.0000024438501,\"st\":0,\"bm\":0},{\"ddd\":0,\"ind\":2,\"ty\":4,\"nm\":\"Circle\/Directional Arrow Outlines\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[50.25,50.25,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[13.5,13.5,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100,100],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"ind\":0,\"ty\":\"sh\",\"ix\":1,\"ks\":{\"a\":0,\"k\":{\"i\":[[-7.18,0],[0,-7.18],[7.18,0],[0,7.18]],\"o\":[[7.18,0],[0,7.18],[-7.18,0],[0,-7.18]],\"v\":[[0,-13],[13,0],[0,13],[-13,0]],\"c\":true},\"ix\":2},\"nm\":\"Path 1\",\"mn\":\"ADBE Vector Shape - Group\",\"hd\":false},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":4},\"o\":{\"a\":0,\"k\":100,\"ix\":5},\"r\":1,\"bm\":0,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[13.25,13.25],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Group 1\",\"np\":2,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":60.0000024438501,\"st\":0,\"bm\":0}],\"markers\":[]}\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/PreviewData.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/PreviewData.swift",
       "kind": "StringLiteral",
       "offset": 3095,
       "length": 3930,
       "value": "\"{\"v\":\"4.8.0\",\"meta\":{\"g\":\"LottieFiles AE 3.4.5\",\"a\":\"\",\"k\":\"\",\"d\":\"\",\"tc\":\"\"},\"fr\":29.9700012207031,\"ip\":0,\"op\":46.0000018736184,\"w\":200,\"h\":200,\"nm\":\"360 Panel Center Load & Success\",\"ddd\":0,\"assets\":[],\"layers\":[{\"ddd\":0,\"ind\":1,\"ty\":4,\"nm\":\"Center Circle\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[99.644,100.002,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0,0],\"ix\":1},\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.667,0.667,0.667],\"y\":[1,1,1]},\"o\":{\"x\":[0.333,0.333,0.333],\"y\":[0,0,0]},\"t\":15,\"s\":[100,100,100]},{\"i\":{\"x\":[0.667,0.667,0.667],\"y\":[1,1,1]},\"o\":{\"x\":[0.333,0.333,0.333],\"y\":[0,0,0]},\"t\":25,\"s\":[125,125,100]},{\"t\":35.0000014255792,\"s\":[0,0,100]}],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[25.987,25.987],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":4},\"o\":{\"a\":0,\"k\":100,\"ix\":5},\"r\":1,\"bm\":0,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[0.332,-0.001],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Ellipse 1\",\"np\":3,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":46.0000018736184,\"st\":0,\"bm\":0},{\"ddd\":0,\"ind\":2,\"ty\":4,\"nm\":\"load circle\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[99.475,100,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[8.947,16.785,0],\"ix\":1},\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.667,0.667,0.667],\"y\":[1,1,1]},\"o\":{\"x\":[0.333,0.333,0.333],\"y\":[0,0,0]},\"t\":30,\"s\":[100,100,100]},{\"t\":45.0000018328876,\"s\":[192,192,100]}],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[100,100],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"tm\",\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.667],\"y\":[1]},\"o\":{\"x\":[0.333],\"y\":[0]},\"t\":0,\"s\":[0]},{\"t\":15.0000006109625,\"s\":[100]}],\"ix\":1},\"e\":{\"a\":0,\"k\":0,\"ix\":2},\"o\":{\"a\":0,\"k\":0,\"ix\":3},\"m\":1,\"ix\":2,\"nm\":\"Trim Paths 1\",\"mn\":\"ADBE Vector Filter - Trim\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":3},\"o\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.667],\"y\":[1]},\"o\":{\"x\":[0.333],\"y\":[0]},\"t\":30,\"s\":[100]},{\"t\":45.0000018328876,\"s\":[0]}],\"ix\":4},\"w\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.667],\"y\":[1]},\"o\":{\"x\":[0.333],\"y\":[0]},\"t\":30,\"s\":[5]},{\"t\":45.0000018328876,\"s\":[0]}],\"ix\":5},\"lc\":2,\"lj\":1,\"ml\":4,\"bm\":0,\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[9.447,16.785],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Ellipse 1\",\"np\":4,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":46.0000018736184,\"st\":0,\"bm\":0},{\"ddd\":0,\"ind\":3,\"ty\":4,\"nm\":\"bottom circle\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":65,\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[99.975,100,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[8.947,16.785,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100,100],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[100,100],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":3},\"o\":{\"a\":0,\"k\":100,\"ix\":4},\"w\":{\"a\":0,\"k\":3,\"ix\":5},\"lc\":1,\"lj\":1,\"ml\":4,\"bm\":0,\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[8.947,16.785],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Ellipse 1\",\"np\":3,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":16.0000006516934,\"st\":0,\"bm\":0}],\"markers\":[]}\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/Views\/SettingsInstructionsView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/Views\/SettingsInstructionsView.swift",
       "kind": "StringLiteral",
       "offset": 1582,
       "length": 19,
       "value": "\"Camera Permission\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1468,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1472,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1475,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1478,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1495,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1498,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1501,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1504,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1521,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1525,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1529,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1557,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1561,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1565,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1568,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1585,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1588,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1591,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1594,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1611,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1614,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1618,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1621,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2126,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 2172,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2215,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2553,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2598,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/PanoComputeRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2644,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/ClientID.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/ClientID.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 38,
       "value": "\"5215E9E2-A6C3-42AE-8895-A1B5130F6D94\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/PanoramaCaptureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 217,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/BlurView.swift",
+      "kind": "FloatLiteral",
+      "offset": 287,
+      "length": 3,
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/PanoramaCaptureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 260,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/CaptureData.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/CaptureData.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/CaptureData.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/CaptureData.swift",
       "kind": "BooleanLiteral",
       "offset": 232,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/CaptureStateManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/ToolbarView.swift",
+      "kind": "StringLiteral",
+      "offset": 2635,
+      "length": 10,
+      "value": "\"ellipsis\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/CaptureStateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 517,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/CaptureStateManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/CaptureStateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 642,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 224,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 267,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 302,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 341,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 381,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 415,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 452,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/AnimationConstants.swift",
       "kind": "FloatLiteral",
       "offset": 490,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "IntegerLiteral",
       "offset": 121,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "FloatLiteral",
       "offset": 147,
       "length": 4,
       "value": "0.01"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Camera.swift",
       "kind": "IntegerLiteral",
       "offset": 336,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 371,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 374,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 406,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 447,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 751,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 805,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 907,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/InputManager.swift",
       "kind": "IntegerLiteral",
       "offset": 950,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Transform.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Transform.swift",
       "kind": "IntegerLiteral",
       "offset": 94,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Transform.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Transform.swift",
       "kind": "IntegerLiteral",
       "offset": 140,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/PanoCompute\/Transform.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/PanoCompute\/Transform.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 16,
       "value": "\"Gilroy-Regular\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 15,
       "value": "\"Gilroy-Medium\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "StringLiteral",
       "offset": 288,
       "length": 17,
       "value": "\"Gilroy-SemiBold\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "BooleanLiteral",
       "offset": 349,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 451,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 512,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 572,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 631,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 691,
+      "offset": 700,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 750,
+      "offset": 760,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 819,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 809,
+      "offset": 878,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Theme\/Font+Theme.swift",
       "kind": "IntegerLiteral",
-      "offset": 870,
+      "offset": 939,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "StringLiteral",
-      "offset": 5699,
-      "length": 10,
-      "value": "\"Tutorial\""
-    },
-    {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5781,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5814,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
-      "kind": "StringLiteral",
-      "offset": 5934,
+      "offset": 6193,
       "length": 9,
       "value": "\"Message\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6015,
+      "offset": 6274,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6049,
+      "offset": 6320,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "StringLiteral",
-      "offset": 6231,
+      "offset": 6471,
       "length": 11,
       "value": "\"Completed\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6314,
+      "offset": 6554,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6348,
+      "offset": 6600,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6388,
+      "offset": 6640,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/Views\/OnboardingView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "StringLiteral",
-      "offset": 3337,
+      "offset": 6729,
+      "length": 6,
+      "value": "\"Exit\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6853,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6929,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/Views\/OnboardingView.swift",
+      "kind": "StringLiteral",
+      "offset": 3844,
       "length": 23,
       "value": "\"Camera Not Determined\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/Views\/OnboardingView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/Views\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 3594,
+      "offset": 4116,
       "length": 15,
       "value": "\"Camera Denied\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 301,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 363,
+      "offset": 498,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 413,
+      "offset": 548,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 464,
+      "offset": 599,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 515,
+      "offset": 650,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 562,
+      "offset": 697,
       "length": 4,
       "value": "78.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 618,
+      "offset": 753,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 669,
+      "offset": 804,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 725,
+      "offset": 860,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 778,
+      "offset": 913,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 835,
+      "offset": 970,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 882,
+      "offset": 1017,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 929,
+      "offset": 1064,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 974,
+      "offset": 1121,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1132,
+      "offset": 1166,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1178,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1229,
+      "offset": 1324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1276,
+      "offset": 1370,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1422,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1469,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "Array",
-      "offset": 1333,
+      "offset": 1573,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1938,
+      "offset": 2182,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 2234,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/ViewModels\/CaptureViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "Array",
       "offset": 193,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "Array",
       "offset": 238,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "BooleanLiteral",
       "offset": 266,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "IntegerLiteral",
       "offset": 509,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "IntegerLiteral",
       "offset": 567,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "Array",
       "offset": 625,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "Array",
       "offset": 687,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "Array",
       "offset": 729,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/PanelManager.swift",
       "kind": "IntegerLiteral",
       "offset": 788,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 202,
+      "offset": 203,
+      "length": 21,
+      "value": "\"alert_dialog_cancel\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
       "length": 20,
       "value": "\"alert_dialog_error\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 280,
+      "offset": 365,
+      "length": 19,
+      "value": "\"alert_dialog_exit\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 21,
+      "value": "\"alert_dialog_upload\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
       "length": 17,
       "value": "\"alert_dialog_ok\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 356,
+      "offset": 601,
       "length": 17,
       "value": "\"button_continue\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 674,
       "length": 14,
       "value": "\"button_start\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 765,
       "length": 38,
       "value": "\"camera_permission_denied_button_text\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 882,
       "length": 39,
       "value": "\"camera_permission_denied_instructions\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 993,
       "length": 32,
       "value": "\"camera_permission_denied_title\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 1098,
       "length": 32,
       "value": "\"camera_permission_instructions\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 951,
+      "offset": 1196,
       "length": 25,
       "value": "\"camera_permission_title\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1277,
+      "length": 14,
+      "value": "\"exit_message\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1345,
+      "length": 12,
+      "value": "\"exit_title\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "kind": "StringLiteral",
+      "offset": 1423,
       "length": 25,
       "value": "\"guidance_message_follow\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1518,
       "length": 30,
       "value": "\"guidance_message_follow_back\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1236,
+      "offset": 1617,
       "length": 29,
       "value": "\"guidance_message_stay_still\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1335,
+      "offset": 1716,
       "length": 31,
       "value": "\"guidance_message_stay_still_2\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 1815,
       "length": 25,
       "value": "\"guidance_message_follow\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1900,
       "length": 18,
       "value": "\"navigation_title\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1986,
       "length": 27,
       "value": "\"onboarding_settings_error\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 2077,
       "length": 23,
       "value": "\"scan_complete_message\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1785,
+      "offset": 2166,
       "length": 25,
       "value": "\"settings_instructions_0\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1876,
+      "offset": 2257,
       "length": 25,
       "value": "\"settings_instructions_1\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 1973,
+      "offset": 2354,
       "length": 32,
       "value": "\"settings_instructions_2_camera\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Localization.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Localization.swift",
       "kind": "StringLiteral",
-      "offset": 2065,
+      "offset": 2446,
       "length": 18,
       "value": "\"tutorial_message\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/Managers\/RenderPipelineManager.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/Managers\/RenderPipelineManager.swift",
       "kind": "Array",
       "offset": 1297,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/AnimationView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/AnimationView.swift",
       "kind": "IntegerLiteral",
       "offset": 1179,
       "length": 2,
       "value": "78"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/AnimationView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/AnimationView.swift",
       "kind": "IntegerLiteral",
       "offset": 1191,
       "length": 2,
       "value": "78"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 337,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 435,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 478,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Onboarding\/ViewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 572,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "BooleanLiteral",
       "offset": 189,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "BooleanLiteral",
       "offset": 373,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "StringLiteral",
       "offset": 1402,
       "length": 16,
       "value": "\"Flyreel Button\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "IntegerLiteral",
       "offset": 1471,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "StringLiteral",
       "offset": 1501,
       "length": 14,
       "value": "\"Test Enabled\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "StringLiteral",
       "offset": 1562,
       "length": 15,
       "value": "\"Test Disabled\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1590,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 22,
       "value": "\"Test Enabled Rounded\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "IntegerLiteral",
       "offset": 1680,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "StringLiteral",
       "offset": 1729,
       "length": 23,
       "value": "\"Test Disabled Rounded\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "IntegerLiteral",
       "offset": 1786,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "StringLiteral",
       "offset": 1835,
       "length": 12,
       "value": "\"Test Color\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/FRButton.swift",
       "kind": "IntegerLiteral",
       "offset": 1863,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 310,
+      "offset": 314,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 460,
+      "offset": 464,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2502,
       "length": 7,
       "value": "\"Video\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2107,
+      "offset": 2545,
       "length": 10,
       "value": "\"tutorial\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2131,
+      "offset": 2569,
       "length": 7,
       "value": "\"Image\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Projects\/flyreel-panorama-core\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Common\/UI\/LoopingVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2183,
+      "offset": 2621,
       "length": 14,
       "value": "\"badreference\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 636,
       "length": 16,
       "value": "\"CompletedGreen\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 14,
       "value": "\"FRBackground\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 11,
       "value": "\"FRPrimary\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1071,
       "length": 13,
       "value": "\"FRSecondary\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1218,
       "length": 14,
       "value": "\"OnBackground\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1360,
       "length": 11,
       "value": "\"OnPrimary\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1517,
       "length": 20,
       "value": "\"OnPrimaryContainer\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1669,
       "length": 13,
       "value": "\"OnSecondary\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1832,
       "length": 22,
       "value": "\"OnSecondaryContainer\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1982,
       "length": 11,
       "value": "\"OnSurface\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2135,
       "length": 18,
       "value": "\"PrimaryContainer\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 14,
       "value": "\"RecordingRed\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2447,
       "length": 20,
       "value": "\"SecondaryContainer\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2591,
       "length": 9,
       "value": "\"Surface\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2827,
+      "offset": 2834,
+      "length": 12,
+      "value": "\"back-arrow\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2968,
       "length": 8,
       "value": "\"camera\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2979,
+      "offset": 3104,
+      "length": 11,
+      "value": "\"checkmark\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3259,
       "length": 20,
       "value": "\"dot-no-orientation\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3138,
+      "offset": 3418,
       "length": 17,
       "value": "\"dot-orientation\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3566,
       "length": 13,
       "value": "\"icon-camera\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3712,
       "length": 14,
       "value": "\"icon-flyreel\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3581,
+      "offset": 3861,
       "length": 15,
       "value": "\"icon-settings\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3725,
+      "offset": 3994,
+      "length": 6,
+      "value": "\"info\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4129,
       "length": 12,
       "value": "\"target-dot\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3877,
+      "offset": 4281,
       "length": 18,
       "value": "\"target-dot-error\""
     },
     {
-      "filePath": "\/Users\/whitej00\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-fsmikshhywqbmbaakvhhfyoxhxxy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphonesimulator\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4043,
+      "offset": 4447,
       "length": 22,
       "value": "\"tutorial-first-frame\""
     }
