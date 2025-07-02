@@ -1269,24 +1269,24 @@ relocations:
   - { offset: 0x1D294B, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama16LoopingVideoViewV9videoName13fallbackImage6player0F10LoadFailedACSS_7SwiftUI0I0VSgSo8AVPlayerCSgSbtcfCTf4nnnnd_n', symObjAddr: 0x610, symBinAddr: 0x46120, symSize: 0x1C0 }
   - { offset: 0x1D2A3C, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama16LoopingVideoViewV11setupPlayer33_9B69CBDC707DC302EADF5337E78498BALLyySo8AVPlayerCFTf4nd_n', symObjAddr: 0xD90, symBinAddr: 0x466B0, symSize: 0x2C0 }
   - { offset: 0x1D2CFA, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama14resourceBundle33_A36369FBACE3973BE2A84EE791CCEDF9LLSo8NSBundleCvp', symObjAddr: 0x798, symBinAddr: 0x11E23E0, symSize: 0x0 }
-  - { offset: 0x1D2D14, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV14completedGreenACvpZ', symObjAddr: 0x5A30, symBinAddr: 0x121DC80, symSize: 0x0 }
-  - { offset: 0x1D2D3A, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV12frBackgroundACvpZ', symObjAddr: 0x5A48, symBinAddr: 0x121DC98, symSize: 0x0 }
-  - { offset: 0x1D2D54, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV9frPrimaryACvpZ', symObjAddr: 0x5A60, symBinAddr: 0x121DCB0, symSize: 0x0 }
-  - { offset: 0x1D2D6E, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV12onBackgroundACvpZ', symObjAddr: 0x5A78, symBinAddr: 0x121DCC8, symSize: 0x0 }
-  - { offset: 0x1D2D88, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV9onPrimaryACvpZ', symObjAddr: 0x5A90, symBinAddr: 0x121DCE0, symSize: 0x0 }
-  - { offset: 0x1D2DA2, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV18onPrimaryContainerACvpZ', symObjAddr: 0x5AA8, symBinAddr: 0x121DCF8, symSize: 0x0 }
-  - { offset: 0x1D2DBC, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV16primaryContainerACvpZ', symObjAddr: 0x5AC0, symBinAddr: 0x121DD10, symSize: 0x0 }
-  - { offset: 0x1D2DD6, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9backArrowACvpZ', symObjAddr: 0x5AD8, symBinAddr: 0x121DD28, symSize: 0x0 }
-  - { offset: 0x1D2DFC, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9checkmarkACvpZ', symObjAddr: 0x5AF0, symBinAddr: 0x121DD40, symSize: 0x0 }
-  - { offset: 0x1D2E16, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV16dotNoOrientationACvpZ', symObjAddr: 0x5B08, symBinAddr: 0x121DD58, symSize: 0x0 }
-  - { offset: 0x1D2E30, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV14dotOrientationACvpZ', symObjAddr: 0x5B20, symBinAddr: 0x121DD70, symSize: 0x0 }
-  - { offset: 0x1D2E4A, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV10iconCameraACvpZ', symObjAddr: 0x5B38, symBinAddr: 0x121DD88, symSize: 0x0 }
-  - { offset: 0x1D2E64, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV04iconA0ACvpZ', symObjAddr: 0x5B50, symBinAddr: 0x121DDA0, symSize: 0x0 }
-  - { offset: 0x1D2E7E, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV12iconSettingsACvpZ', symObjAddr: 0x5B68, symBinAddr: 0x121DDB8, symSize: 0x0 }
-  - { offset: 0x1D2E98, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV4infoACvpZ', symObjAddr: 0x5B80, symBinAddr: 0x121DDD0, symSize: 0x0 }
-  - { offset: 0x1D2EB2, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9targetDotACvpZ', symObjAddr: 0x5B98, symBinAddr: 0x121DDE8, symSize: 0x0 }
-  - { offset: 0x1D2ECC, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV14targetDotErrorACvpZ', symObjAddr: 0x5BB0, symBinAddr: 0x121DE00, symSize: 0x0 }
-  - { offset: 0x1D2EE6, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV18tutorialFirstFrameACvpZ', symObjAddr: 0x5BC8, symBinAddr: 0x121DE18, symSize: 0x0 }
+  - { offset: 0x1D2D14, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV14completedGreenACvpZ', symObjAddr: 0x5A40, symBinAddr: 0x121DC80, symSize: 0x0 }
+  - { offset: 0x1D2D3A, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV12frBackgroundACvpZ', symObjAddr: 0x5A58, symBinAddr: 0x121DC98, symSize: 0x0 }
+  - { offset: 0x1D2D54, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV9frPrimaryACvpZ', symObjAddr: 0x5A70, symBinAddr: 0x121DCB0, symSize: 0x0 }
+  - { offset: 0x1D2D6E, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV12onBackgroundACvpZ', symObjAddr: 0x5A88, symBinAddr: 0x121DCC8, symSize: 0x0 }
+  - { offset: 0x1D2D88, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV9onPrimaryACvpZ', symObjAddr: 0x5AA0, symBinAddr: 0x121DCE0, symSize: 0x0 }
+  - { offset: 0x1D2DA2, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV18onPrimaryContainerACvpZ', symObjAddr: 0x5AB8, symBinAddr: 0x121DCF8, symSize: 0x0 }
+  - { offset: 0x1D2DBC, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV16primaryContainerACvpZ', symObjAddr: 0x5AD0, symBinAddr: 0x121DD10, symSize: 0x0 }
+  - { offset: 0x1D2DD6, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9backArrowACvpZ', symObjAddr: 0x5AE8, symBinAddr: 0x121DD28, symSize: 0x0 }
+  - { offset: 0x1D2DFC, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV12checkConfirmACvpZ', symObjAddr: 0x5B00, symBinAddr: 0x121DD40, symSize: 0x0 }
+  - { offset: 0x1D2E16, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV16dotNoOrientationACvpZ', symObjAddr: 0x5B18, symBinAddr: 0x121DD58, symSize: 0x0 }
+  - { offset: 0x1D2E30, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV14dotOrientationACvpZ', symObjAddr: 0x5B30, symBinAddr: 0x121DD70, symSize: 0x0 }
+  - { offset: 0x1D2E4A, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV10iconCameraACvpZ', symObjAddr: 0x5B48, symBinAddr: 0x121DD88, symSize: 0x0 }
+  - { offset: 0x1D2E64, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV04iconA0ACvpZ', symObjAddr: 0x5B60, symBinAddr: 0x121DDA0, symSize: 0x0 }
+  - { offset: 0x1D2E7E, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV12iconSettingsACvpZ', symObjAddr: 0x5B78, symBinAddr: 0x121DDB8, symSize: 0x0 }
+  - { offset: 0x1D2E98, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV4infoACvpZ', symObjAddr: 0x5B90, symBinAddr: 0x121DDD0, symSize: 0x0 }
+  - { offset: 0x1D2EB2, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9targetDotACvpZ', symObjAddr: 0x5BA8, symBinAddr: 0x121DDE8, symSize: 0x0 }
+  - { offset: 0x1D2ECC, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV14targetDotErrorACvpZ', symObjAddr: 0x5BC0, symBinAddr: 0x121DE00, symSize: 0x0 }
+  - { offset: 0x1D2EE6, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV18tutorialFirstFrameACvpZ', symObjAddr: 0x5BD8, symBinAddr: 0x121DE18, symSize: 0x0 }
   - { offset: 0x1D2EF4, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama19ResourceBundleClass33_A36369FBACE3973BE2A84EE791CCEDF9LLCMa', symObjAddr: 0x20, symBinAddr: 0x46D50, symSize: 0x20 }
   - { offset: 0x1D2F08, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama14resourceBundle33_A36369FBACE3973BE2A84EE791CCEDF9LL_WZ', symObjAddr: 0x40, symBinAddr: 0x46D70, symSize: 0x50 }
   - { offset: 0x1D2F49, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV14completedGreen_WZ', symObjAddr: 0x90, symBinAddr: 0x46DC0, symSize: 0x60 }
@@ -1297,7 +1297,7 @@ relocations:
   - { offset: 0x1D3011, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV18onPrimaryContainer_WZ', symObjAddr: 0x270, symBinAddr: 0x46FA0, symSize: 0x70 }
   - { offset: 0x1D304E, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ColorResourceV16primaryContainer_WZ', symObjAddr: 0x2E0, symBinAddr: 0x47010, symSize: 0x70 }
   - { offset: 0x1D308B, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9backArrow_WZ', symObjAddr: 0x350, symBinAddr: 0x47080, symSize: 0x60 }
-  - { offset: 0x1D30B3, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV9checkmark_WZ', symObjAddr: 0x3B0, symBinAddr: 0x470E0, symSize: 0x60 }
+  - { offset: 0x1D30B3, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV12checkConfirm_WZ', symObjAddr: 0x3B0, symBinAddr: 0x470E0, symSize: 0x60 }
   - { offset: 0x1D30DB, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV16dotNoOrientation_WZ', symObjAddr: 0x410, symBinAddr: 0x47140, symSize: 0x70 }
   - { offset: 0x1D3118, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV14dotOrientation_WZ', symObjAddr: 0x480, symBinAddr: 0x471B0, symSize: 0x60 }
   - { offset: 0x1D3140, size: 0x8, addend: 0x0, symName: '_$s15FlyreelPanorama13ImageResourceV10iconCamera_WZ', symObjAddr: 0x4E0, symBinAddr: 0x47210, symSize: 0x60 }
