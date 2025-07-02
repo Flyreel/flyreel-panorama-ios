@@ -1753,84 +1753,84 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "StringLiteral",
-      "offset": 6193,
+      "offset": 6196,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6274,
+      "offset": 6277,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6320,
+      "offset": 6323,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "StringLiteral",
-      "offset": 6471,
+      "offset": 6474,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6554,
+      "offset": 6557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6600,
+      "offset": 6603,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6640,
+      "offset": 6643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "StringLiteral",
-      "offset": 6729,
+      "offset": 6732,
       "length": 6,
       "value": "\"Exit\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6807,
+      "offset": 6810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6853,
+      "offset": 6856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6893,
+      "offset": 6896,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-panorama\/ios\/FlyreelPanorama\/Screens\/Capture\/Views\/CaptureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6929,
+      "offset": 6932,
       "length": 4,
       "value": "true"
     },
@@ -2628,70 +2628,70 @@
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3104,
-      "length": 11,
-      "value": "\"checkmark\""
+      "offset": 3110,
+      "length": 14,
+      "value": "\"checkConfirm\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3268,
       "length": 20,
       "value": "\"dot-no-orientation\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3418,
+      "offset": 3427,
       "length": 17,
       "value": "\"dot-orientation\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3566,
+      "offset": 3575,
       "length": 13,
       "value": "\"icon-camera\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3712,
+      "offset": 3721,
       "length": 14,
       "value": "\"icon-flyreel\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3861,
+      "offset": 3870,
       "length": 15,
       "value": "\"icon-settings\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3994,
+      "offset": 4003,
       "length": 6,
       "value": "\"info\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4129,
+      "offset": 4138,
       "length": 12,
       "value": "\"target-dot\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4281,
+      "offset": 4290,
       "length": 18,
       "value": "\"target-dot-error\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Library\/Developer\/Xcode\/DerivedData\/FlyreelPanorama-bwmspvbyanyhynfhwsckzmgnxssg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlyreelPanorama\/IntermediateBuildFilesPath\/FlyreelPanorama.build\/Release-iphoneos\/FlyreelPanorama.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4447,
+      "offset": 4456,
       "length": 22,
       "value": "\"tutorial-first-frame\""
     }

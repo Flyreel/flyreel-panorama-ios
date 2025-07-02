@@ -44,8 +44,3 @@ public enum Panorama {
 }
 
 
-@available(iOS 11.0, tvOS 11.0, *)
-@available(watchOS, unavailable)
-extension UIKit.UIImage {
-  #warning("The "checkmark" image asset name resolves to a conflicting UIImage symbol "checkmark". Try renaming the asset.")
-}

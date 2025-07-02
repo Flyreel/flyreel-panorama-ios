@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		y2CrDV2R084JTRqO6o+4myEdeWM=
+		9D/bB3i3635KaDYPMR00On7M67M=
 		</data>
 		<key>CMakeLists.txt</key>
 		<data>
@@ -30,15 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fnnfk1B8TbImR/dkVAudpXw6KbU=
+		GqSAlajMkpsWaYnm03OOANZdtGk=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wM46LlQwoqxtCctRmg+JpQOOBjo=
+		QcDAPQ7j+WFxbMXODbtJyYospoo=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		t7gRDO2osu4x7dkY0OVLBF9bf8I=
+		ECrNUMqO+jR4Ruv/8Z5AAw0HZq8=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		t7gRDO2osu4x7dkY0OVLBF9bf8I=
+		ECrNUMqO+jR4Ruv/8Z5AAw0HZq8=
 		</data>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		O6hUTjJYPa4kywuCDorHg+sAaKQ=
+		xRSOIFNh9eIQ93S9QBTgB8QY6Bo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/yc6IlTE/QBpU4zL5jtrVOINvGC7iv0tDsvP/99UII=
+			Zvgdk5JPu+w6SVV8+u6iLcPV7ws5I60ALuFuEmyxQE8=
 			</data>
 		</dict>
 		<key>CMakeLists.txt</key>
@@ -154,14 +154,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtBtOSLLRYo+BizUr0udvtNg1RvKNWIOGv/T6a+R0g4=
+			naEwzvXLIxiRVM6KVupeiLXwB8gD8g63aIbZKXsJhmk=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			13mF8lo4SZCkvwGBvte1UXdbqRo+VCiRnUWW3vXX+Rg=
+			ZEpsmIVtC3XH98HZGDz8QIcvzQ49ZTzYCixTy6anC9I=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -175,14 +175,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			13mF8lo4SZCkvwGBvte1UXdbqRo+VCiRnUWW3vXX+Rg=
+			ZEpsmIVtC3XH98HZGDz8QIcvzQ49ZTzYCixTy6anC9I=
 			</data>
 		</dict>
 		<key>Modules/FlyreelPanorama.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BkxD4Fbhf2//TEifdLQvUk4PXjyoGsbMU7W/iClwovk=
+			iud9fR542arBGH2O35ZSHyNPR11Ag3lOyr6yoToBv2Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
